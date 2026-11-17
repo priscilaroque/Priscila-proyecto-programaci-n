@@ -564,6 +564,27 @@ export function SectionContent({ sectionId }: SectionContentProps) {
           )}
         </div>
       )}
+
+
+      <div className="flex flex-col items-start justify-between gap-4 border-t border-white/12 pt-8 sm:flex-row sm:items-center">
+        <div>
+          <p className="font-serif text-xl font-semibold text-white">
+            Sitio oficial de deMon2k
+          </p>
+          <p className="mt-1 text-xs text-[#CFC6DC]">
+            Documentación oficial, descargas y referencias del software.
+          </p>
+        </div>
+        <a
+          href="http://www.demon-software.com/public_html/index.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex shrink-0 items-center gap-2 whitespace-nowrap rounded-xl bg-[#F5E0B3] px-5 py-2.5 text-sm font-semibold text-[#110C1E] transition-colors duration-150 hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#E6C78A]"
+        >
+          <span>Para conocer más sobre este Software entrar aquí</span>
+          <ExternalLink className="h-4 w-4 shrink-0" aria-hidden="true" />
+        </a>
+      </div>
     </div>
   );
 }
