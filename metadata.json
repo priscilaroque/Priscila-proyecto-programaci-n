@@ -1,0 +1,6 @@
+{
+  "name": "Validación del cálculo de constantes hiperfinas usando la ADFT",
+  "description": "Página personal de Priscila Roque dedicada al aprendizaje del software deMon2k y la validación del cálculo de constantes de acoplamiento hiperfino mediante la Teoría de los Funcionales de la Densidad Auxiliar (ADFT).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
